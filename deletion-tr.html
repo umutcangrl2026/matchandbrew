@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veri Silme · Match &amp; Brew</title>
+<style>
+:root{--bg:#F7F1EA;--card:#EFE4D6;--text:#4A3728;--accent:#C98F5A;--muted:#7a6454}
+@media (prefers-color-scheme:dark){:root{--bg:#2a211b;--card:#352a22;--text:#f1e6d8;--accent:#d9a574;--muted:#bba899}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+a{color:var(--accent)}h1{font-size:1.9rem;margin:.4em 0 .2em}h2{font-size:1.2rem;margin:0 0 .4em}
+.card{background:var(--card);border-radius:16px;padding:16px 20px;margin:16px 0}
+nav ul{padding-left:1.2em;margin:.4em 0}.lead{color:var(--muted)}footer{margin-top:32px;color:var(--muted);font-size:.9rem}
+mark.todo{background:#ffd9a0;color:#4a3728;padding:0 .2em;border-radius:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a href="index.html">Ana sayfa</a><a href="deletion-en.html" hreflang="en" lang="en">English</a></header>
+<h1>Veri Silme</h1>
+<p class="lead">Bu sayfa, Umutcan Gürel tarafından geliştirilen Match &amp; Brew oyununda verilerinizi nasıl silebileceğinizi açıklar. Oyunda hesap yoktur; oyun ilerlemeniz yalnızca cihazınızda tutulur.</p>
+<nav class="card" aria-label="İçindekiler"><strong>İçindekiler</strong><ul><li><a href="#oyun-verileri">1. Oyun verilerinizi silme</a></li><li><a href="#reklam-kimligi">2. Reklam kimliğinizi silme</a></li><li><a href="#talep">3. Bize yazarak silme talebi</a></li><li><a href="#saklama">4. Silinen ve saklanan veriler</a></li><li><a href="#iletisim">5. İletişim</a></li></ul></nav>
+<main>
+<section class="card" id="oyun-verileri"><h2>1. Oyun verilerinizi silme</h2><p>Seviye yıldızları, Çekirdek, güçlendiriciler, fincanlar ve ayarlar yalnızca cihazınızda saklanır; sunucularımızda kopyası yoktur. Silmek için şu yollardan birini kullanın:</p><ul><li>Uygulamayı cihazınızdan kaldırın.</li><li>Ya da Android Ayarlar → Uygulamalar → Match &amp; Brew → Depolama → Verileri temizle.</li><li>Android yedeklemesi açıksa Google hesabınızdaki cihaz yedeğini Google Drive&#39;daki Yedekler bölümünden silebilirsiniz.</li></ul></section>
+<section class="card" id="reklam-kimligi"><h2>2. Reklam kimliğinizi silme</h2><p>Reklamlar (Google AdMob) cihazınızın reklam kimliğini kullanır. Silmek ya da sıfırlamak için Android Ayarlar → Google → Reklamlar → &quot;Reklam kimliğini sil&quot; (ya da &quot;Reklam kimliğini sıfırla&quot;) adımlarını izleyin; böylece önceki reklam verileri cihazınızla eşleşmez.</p><p>Avrupa Birliği ve İngiltere&#39;de reklam ve analiz izinlerinizi oyunda Ayarlar → Gizlilik seçenekleri bölümünden istediğiniz zaman değiştirebilirsiniz.</p></section>
+<section class="card" id="talep"><h2>3. Bize yazarak silme talebi</h2><p>Diğer verilerin silinmesi için <a href="mailto:umutcan.grl2026@gmail.com">umutcan.grl2026@gmail.com</a> adresine &quot;Veri silme talebi – Match &amp; Brew&quot; konulu bir e-posta gönderin:</p><ul><li>Satın alma yaptıysanız Google Play makbuzunuzdaki sipariş numarasını (GPA. ile başlar) yazın; satın alma doğrulama hizmetimizdeki (RevenueCat) anonim kaydınızı sileriz. &quot;Reklamları Kaldır&quot; hakkınızı daha sonra oyundaki &quot;Satın alımları geri yükle&quot; ile yeniden alabilirsiniz.</li><li>Talebinize en geç 30 gün içinde yanıt veririz.</li></ul></section>
+<section class="card" id="saklama"><h2>4. Silinen ve saklanan veriler</h2><p>Verileriniz şöyle silinir ya da saklanır:</p><ul><li>Oyun ilerlemesi (cihazınızda): uygulamayı kaldırınca ya da verileri temizleyince hemen silinir.</li><li>Analiz olayları (Google Analytics for Firebase): sizi doğrudan tanımlamayan rastgele bir uygulama kimliğine bağlıdır; bu kimlik bize iletilmediği için tek tek bulunup silinemez. Kullanıcı ve etkinlik düzeyindeki veriler en çok 14 ay sonra otomatik silinir; yalnızca anonim toplu raporlar kalır.</li><li>Hata raporları (Sentry): kişisel veri içermez; en çok 90 gün sonra otomatik silinir.</li><li>Reklam verileri (Google AdMob): Google&#39;ın gizlilik politikasına göre saklanır; reklam kimliğinizi silince yeni verilerle eşleşmez.</li><li>Satın alma kayıtları: RevenueCat&#39;teki anonim kaydınız talebiniz üzerine silinir. Google Play&#39;in ödeme kayıtları yasal (vergi, muhasebe) yükümlülükler nedeniyle Google tarafından saklanır.</li></ul></section>
+<section class="card" id="iletisim"><h2>5. İletişim</h2><p>Sorularınız için <a href="mailto:umutcan.grl2026@gmail.com">umutcan.grl2026@gmail.com</a> adresine yazabilirsiniz. Hangi verilerin neden işlendiği Gizlilik Politikamızda ayrıntılı olarak anlatılır.</p></section>
+</main>
+<footer>© Umutcan Gürel · Match &amp; Brew</footer>
+</div>
+</body>
+</html>
